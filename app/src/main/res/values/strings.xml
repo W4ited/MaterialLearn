@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DesignLearn</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="input_hint">text</string>
+    <string name="label_normal">Normal:</string>
+    <string name="label_autofit">Autofit:</string>
+    <string name="example">This is an example</string>
+</resources>

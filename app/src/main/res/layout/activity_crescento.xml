@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:attribute="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <developer.shivam.crescento.CrescentoContainer
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:id="@+id/crescentoContainer"
+        android:elevation="20dp"
+        android:scaleType="centerCrop"
+        attribute:curvature="90dp"
+        attribute:curvatureDirection="inward" >
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/songshu"/>
+    </developer.shivam.crescento.CrescentoContainer>
+
+    <developer.shivam.crescento.CrescentoImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/songshu"
+        attribute:curvature="90dp"
+        attribute:curvatureDirection="inward"/>
+
+</LinearLayout>

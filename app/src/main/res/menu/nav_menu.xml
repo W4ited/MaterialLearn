@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:title="全部"></item>
+    <item
+        android:id="@+id/ios"
+        android:title="IOS"></item>
+    <item
+        android:id="@+id/app"
+        android:title="APP"></item>
+    <item
+        android:id="@+id/qian"
+        android:title="前端"></item>
+    <item
+        android:id="@+id/movie"
+        android:title="休息视频"></item>
+    <item
+        android:id="@+id/resource"
+        android:title="拓展资源"></item>
+
+
+</menu>

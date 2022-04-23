@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MaterialLearn" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+        <!-- Primary brand colorsyty.css. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand colorsyty.css. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar colorsyty.css. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="counterOverFlow" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:textColor">@color/OverFlow</item>
+    </style>
+
+    <style name="CounterStyle" parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
+        <item name="android:textColor">@color/write</item>
+    </style>
+
+    <style name="Theme.Animals" parent="Theme.MaterialComponents.DayNight.NoActionBar"></style>
+
+    <style name="myBottomSheetStyle" parent="BottomSheet.Dialog">
+        <!-- 整个屏幕北京的灰度值：默认是黑色的：遮盖层的灰度-->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowAnimationStyle">@style/BottomSheet.Animation</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textColorSecondary">@color/purple_200</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="bs_dialogBackground">@color/purple_200</item>
+        <item name="bs_dividerColor">@color/purple_200</item>
+        <item name="bs_numColumns">3</item>
+        <item name="bs_listStyle">@style/BottomSheet.List</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+</resources>

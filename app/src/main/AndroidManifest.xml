@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.materiallearn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialLearn">
+        <activity
+            android:name=".MaterialTabLayout.MaterialTabLayout"
+            android:exported="false" />
+        <activity android:name=".VerticalViewpager.VerticalFragment" />
+        <activity android:name=".HorizontalViewpager.PagerFirst" />
+        <activity android:name=".ViewPager2.ViewPager" />
+        <activity android:name=".Html.MainActivity2" />
+        <activity android:name=".AutoFitTextView.AutoFitTextView" />
+        <activity android:name=".DiagonalLayout.DiagonalLayout" />
+        <activity android:name=".SgfSplash6Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BottomSheet.BottomSheet" />
+        <activity android:name=".CardView.CardView" />
+        <activity
+            android:name=".CardView.AnimalActivity"
+            android:theme="@style/Theme.Animals" />
+        <activity android:name=".TextInputEdit.TextInputEdit" />
+        <activity android:name=".Crescento.CrescentoImageView" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

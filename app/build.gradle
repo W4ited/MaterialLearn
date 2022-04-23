@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.example.materiallearn"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    compile 'com.cocosw:bottomsheet:1.+@aar'
+
+    //side动画效果
+    implementation 'com.github.yalantis:Side-Menu.Android:1.0.1'
+    //揭露动画
+    implementation 'com.github.ozodrukh:CircularReveal:2.1.0'
+        //findbyid 实例
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+
+    //diagonallayout
+    compile 'com.github.florent37:diagonallayout:1.0.9'
+    compile 'com.flaviofaria:kenburnsview:1.0.7'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
+    //autofittextview
+    compile 'me.grantland:autofittextview:0.2.+'
+
+    //Crescento
+    compile 'com.github.developer-shivam:Crescento:1.2.1'
+
+    //viewpager2
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation "com.google.android.material:material:1.1.0-beta01"
+}
